@@ -1,0 +1,104 @@
+.props-container {
+    font-family: "comfortaa", cursive;
+}
+
+.btn-link {
+    text-decoration: none;
+    background-color: royalblue;
+    color: #fff;
+    /* border: 1px solid royalblue; */
+    /* height: 100px; */
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+
+.props-heading {
+    letter-spacing: 5px;
+    font-size: 27px;
+    padding-top: 60px;
+    margin-left: 70px; 
+}
+
+.props-h {
+    height: 2px;
+    background-color: royalblue;
+    margin: 15px 85% 4px 70px;
+  }
+  
+.props-h-1 {
+     height: 2px;
+     background-color: royalblue;
+     margin: 9px 90% 5px 70px;
+ }
+
+  .props-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 6% 5% 0;
+}
+
+.props-wrapper > div {
+    /* height: 500px; */
+    width: 350px;
+    background-color: #fff;
+    margin-bottom: 4%;
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.props-img1 {
+    height: 250px;
+    width: 100%;
+    border: 5px;
+}
+
+.props-btn {
+    background-color: royalblue;
+    color: #fff;
+    border: 1px solid royalblue;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-bottom: 5%;
+}
+
+.props-h3 {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.props-location {
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .props-h {
+        height: 1px;
+        margin: 15px 69% 4px 40px;
+      }
+      
+    .props-h-1 {
+         height: 1px;
+         margin: 9px 75% 10px 40px;
+     }
+
+     .props-heading {
+        margin-left: 40px;
+        font-size: 25px; 
+        padding-top: 15px;
+    }
+    
+}

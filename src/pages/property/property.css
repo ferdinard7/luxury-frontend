@@ -1,0 +1,272 @@
+.prop-container {
+    font-family: "comfortaa", cursive;
+}
+
+.propertyImg {
+    width: 70%;
+    margin-left: -4%;
+}
+
+.prop-heading {
+    letter-spacing: 5px;
+    font-size: 27px;
+    padding-top: 60px;
+    margin-left: 70px; 
+}
+
+.prop-h {
+    height: 2px;
+    background-color: royalblue;
+    margin: 15px 85% 4px 70px;
+  }
+  
+.prop-h-1 {
+      height: 2px;
+      background-color: royalblue;
+      margin: 9px 90% 5px 70px;
+}
+
+.prop-wrapper {
+    margin-left: 70px;
+    margin-top: 7%;
+}
+
+.prop-wrapper > h3 {
+    /* margin-left: 70px; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.prop-span {
+    font-weight: 300;
+    color: royalblue;
+}
+
+.prop-btn {
+        background-color: royalblue;
+        color: #fff;
+        border: 1px solid royalblue;
+        height: 40px;
+        width: 90px;
+        border-radius: 5px;
+        /* position: relative;
+        top: -20px; */
+        cursor: pointer;
+        padding: 5px 10px;
+        font-size: 15px;
+        margin-bottom: 3%;
+        margin-top: 2%;
+}
+
+.prop-desc {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.prop-p {
+    margin-right: 50%;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.prop-wrapper > ul > li {
+    list-style: none;
+    margin-bottom: 2%;
+    margin-left: -40px;
+    font-weight: bolder;
+}
+
+.my-span {
+    font-weight: lighter;
+    margin-left: 1%;
+    font-size: 15px;
+}
+
+
+.prop-agent {
+    margin-left: 72px;
+    margin-top: 5%;
+}
+
+.prop-agent > h3 {
+    /* margin-left: 72px; */
+    font-size: 30px;
+}
+
+
+.agent-heading {
+    letter-spacing: 5px;
+    font-size: 25px;
+    padding-top: 30px;
+    margin-left: 10px; 
+}
+
+.agent-h {
+    height: 2px;
+    background-color: royalblue;
+    margin: 15px 85% 4px 20px;
+  }
+  
+.agent-h-1 {
+      height: 2px;
+      background-color: royalblue;
+      margin: 9px 90% 5px 20px;
+}
+
+.contact-agent {
+    display: flex;
+    padding-top: 7%;
+    flex-direction: column;
+
+}
+
+.input-group {
+    margin-bottom: 25px;
+    /* display: block; */
+}
+
+.input-group label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.input-group input {
+    height: 25px;
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    border-radius: 4px; 
+}
+
+.input-group textarea {
+   background-color: #f5f5f5;
+   height: 200px;
+   width: 65%;
+   font-size: 18px;
+   padding-left: 2%;
+}
+
+.snd-btn {
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+    font-size: 15px;
+    background-color: royalblue;
+    color: #fff;
+    border: 1px solid royalblue;
+}
+
+
+@media screen and (max-width: 768px) {
+    .prop-heading {
+        font-size: 22px;
+        padding-top: 30px;
+        margin-left: 15px;
+    }
+
+    .prop-h,
+    .prop-h-1 {
+        height: 0.8px;
+        margin-left: 18px;
+    }
+
+    .prop-wrapper {
+        margin-left: 15px;
+        margin-top: 5%;
+    }
+
+    .prop-wrapper img {
+        max-width: 85%;
+        height: auto;
+    }
+
+    .prop-wrapper > ul > li {
+        margin-left: -10px;
+        margin-top: 4%;
+    }
+
+    .prop-wrapper > h3 {
+        font-size: 20px;
+        margin-bottom: 4%;
+        margin-top: 3%;
+    }
+
+    .prop-btn {
+        font-size: 16px;
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+
+    .prop-p {
+        margin-right: 2px;
+        font-size: 16px;
+    }
+
+    .agent-h {
+        height: 1px;
+        background-color: royalblue;
+        margin: 15px 79% 4px 10px;
+      }
+      
+    .agent-h-1 {
+          height: 1px;
+          background-color: royalblue;
+          margin: 9px 89% 5px 10px;
+    }
+
+
+    .prop-agent > h3 {
+        font-size: 22px;
+        margin-left: -20px;
+    }
+
+    .agent-heading {
+        letter-spacing: 3px;
+        font-size: 21px;
+        padding-top: 15px;
+        margin-left: 5px; 
+    }
+
+    .contact-agent {
+        flex-direction: column;
+    }
+
+    .input-group {
+        margin-bottom: 30px;
+    }
+
+    .input-group label {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .input-group input {
+        width: 80%;
+        padding: 10px;
+        font-size: 16px;
+        margin: 0;
+        background-color: #f5f5f5;
+        border: 1px solid black;
+        border-radius: 4px; 
+    }
+
+    .input-group textarea {
+       background-color: #f5f5f5;
+       height: 150px;
+       width: 85%;
+    }
+
+    .snd-btn {
+        margin-top: 5px;
+        width: 70%;
+    }
+}
+
+
+

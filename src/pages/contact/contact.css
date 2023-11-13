@@ -1,0 +1,139 @@
+.g-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 7% 0 0 0;
+    font-family: "comfortaa", cursive;
+    /* padding-right: 5%; */
+}
+
+.vertical-rule {
+    border-right: 10px dotted #fff; /* Set the border to dashed and adjust the color as needed */
+    /* height: 100px; */
+    width: 350px;
+    margin-left: 6%;
+    background-color:  #0675a8;
+    padding: 1% 2%;
+    padding-bottom: 5%;
+    /* flex: 1; */
+}
+
+.vertical-rule > h3 {
+    font-size: 29px;
+    color: #fff;
+    margin: 9% 0;
+}
+
+.vertical-rule > p {
+    color: #fff;
+    margin: 7% 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vertical-rule > small {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.next {
+    flex: 3;
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.n-h-1 {
+    height: 2px;
+    background-color: royalblue;
+    margin: 10px 41%;
+  }
+  
+  .n-h {
+      height: 2px;
+      background-color: royalblue;
+      margin: 10px 46%;
+      /* margin: 9px 90% 5px 70px; */
+  }
+
+  .form {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 7%;
+  }
+
+  .form > input {
+    width: 270px;
+    height: 40px;
+    margin-right: 3%;
+    margin-top: 4%;
+    font-size: 15px;
+
+  }
+
+  .form > textarea {
+    width: 580px;
+    height: 200px;
+    margin-top: 4%;
+    font-size: 15px;
+    padding-left: 2%;
+  }
+
+  .form > button {
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    float: left;
+    margin-left: 11%;
+    margin-top: 2%;
+    background-color: #0675a8;
+    color: #fff;
+    border: 1px solid #0675a8;
+    cursor: pointer;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+   
+    .g-container {
+      flex-direction: column;
+      margin: 0;
+      width: 100%;
+    }
+
+    .vertical-rule {
+      width: 85%;
+      margin-left: 0;
+      background-color:  #0675a8;
+      padding: 1% 5%;
+      padding-bottom: 5%;
+      /* flex: 1; */
+  }
+
+  .form {
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 6%;
+  }
+
+  .form > textarea {
+    width: 71%;
+    padding-left: 1%;
+    margin-top: 5%;
+  }
+
+  .form > input {
+    width: 70%;
+    margin-right: 3%;
+    font-size: 12px;
+    margin-top: 5%;
+  }
+
+  .form > button {
+    margin-left: 13%;
+  }
+
+  .next {
+    margin-top: 8%;
+  }
+
+  }

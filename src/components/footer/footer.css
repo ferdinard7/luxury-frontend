@@ -1,0 +1,186 @@
+.footer-container {
+    background-color: #000;
+    font-family: "comfortaa", cursive;
+}
+
+.footer-wrapper {
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-left: 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-img {
+  height: 60px;
+  margin-left: 39%;
+}
+
+.footer-span {
+    color: #F23B43;
+}
+
+.footer-first > p:hover {
+   color: royalblue;
+}
+
+.footer-first > h4 {
+    font-size: 15px;
+}
+
+.footer-second > h4 {
+    font-size: 15px;
+}
+
+.footer-third > h4 {
+    font-size: 13px;
+}
+
+.footer-first {
+  margin-top: 40px;
+}
+
+.footer-first > p {
+    font-size: 13px;
+}
+
+.footer-second > p {
+    font-size: 13px;
+}
+
+.footer-second > p:hover {
+    color: royalblue;
+}
+
+.footer-third > p {
+    font-size: 13px;
+}
+
+.footer-third > p:hover {
+    color: royalblue;
+}
+
+.footer-third {
+    margin-right: 10%;
+    margin-top: 40px;
+}
+
+.footer-logo {
+ margin-top: 40px;
+}
+
+.footer-second {
+    margin-top: 40px;
+}
+
+footer {
+    margin-top: 1%;
+    color: #fff;
+    text-align: center;
+}
+
+footer > small {
+  font-size: 13px;
+}
+
+footer > p {
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+.iconss {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 800px) {
+ 
+    .footer-wrapper {
+        margin-top: 35px;
+        margin-right: 20px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    .footer-img {
+      height: 40px;
+      margin-left: -5%;
+    }
+    
+    .footer-span {
+        color: #F23B43;
+    }
+    
+    .footer-first > p:hover {
+       color: royalblue;
+    }
+    
+    .footer-first > h4 {
+        font-size: 12px;
+    }
+    
+    .footer-second > h4 {
+        font-size: 12px;
+    }
+    
+    .footer-third > h4 {
+        font-size: 12px;
+    }
+    
+    .footer-first {
+      margin-top: 10px;
+    }
+    
+    .footer-first > p {
+        font-size: 10px;
+    }
+    
+    .footer-third > p {
+        font-size: 10px;
+    }
+
+     .iconss {
+        display: none !important;
+        margin-right: 10px;
+    }
+
+    .footer-third > p:hover {
+        color: royalblue;
+    }
+    
+    .footer-third {
+        margin-right: 10%;
+        margin-top: 5px;
+    }
+    
+    .footer-logo {
+     margin-top: 20px;
+    }
+    
+    .footer-second {
+        display: none;
+    }
+    
+    footer {
+        margin-top: 1%;
+        color: #fff;
+        text-align: center;
+    }
+    
+    footer > small {
+      font-size: 13px;
+    }
+    
+    footer > p {
+        margin-bottom: 3px;
+        font-size: 13px;
+    }
+    
+}

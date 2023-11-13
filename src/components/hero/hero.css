@@ -1,0 +1,154 @@
+.hero-wrapper {
+    font-family: "comfortaa", cursive;
+    padding-left: 8%;
+    position: absolute;
+    top: 10%;
+    margin-top: 20%;
+}
+
+.hero-wrapper-first {
+   color: royalblue;
+   font-size: 45px;
+}
+
+.hero-wrapper-paragraph {
+    color: #fff;
+    font-size: 35px;
+ }
+
+.video-background {
+    position: relative;
+    top: -160px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .video-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+  
+  .video-background video {
+    object-fit: cover;
+    width: 100%;
+  }
+
+
+  .select-div {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    /* justify-content: space-between; */
+  }
+
+  .select-div > div {
+    margin-right: 3%;
+  }
+
+  .type {
+    height: 50px;
+    width: 155px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid royalblue;
+  }
+
+  .status {
+    height: 50px;
+    width: 155px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 2px solid royalblue;
+  }
+
+  .search-input {
+    height: 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 550px;
+  }
+
+  .search-button {
+    height: 50px;
+    font-size: 15px;
+    width: 200px;
+    background-color: #0675A8;
+    color: #fff;
+    border: 1px solid #0675A8;
+  }
+
+
+@media only screen and (max-width: 768px) {
+  .video-background {
+    top: -40px;
+    /* height: 60vh; */
+  }
+
+  .video-background video {
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .hero-wrapper {
+    top: 8%;
+    padding-left: 4%;
+    /* z-index: 2; */
+}
+
+.hero-wrapper-first {
+   font-size: 45px;
+   margin-bottom: 3%;
+   margin-top: 3%;
+}
+
+.hero-wrapper-paragraph {
+    font-size: 39px;
+    padding-right: 2%;
+    margin-bottom: 3%;
+ }
+
+ .select-div {
+  display: inline;
+  margin-top: 15px;
+}
+
+.type {
+  width: 95%;
+  margin-bottom: 2%;
+  font-size: 20px;
+  height: 60px;
+}
+
+.status {
+  height: 60px;
+  width: 95%;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+.search-input {
+  height: 50px;
+  font-size: 20px;
+  /* border-radius: 5px; */
+  width: 93%;
+  margin-bottom: 3%;
+}
+
+.search-button {
+  height: 50px;
+  font-size: 19px;
+  width: 94%;
+}
+    
+
+}
+

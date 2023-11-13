@@ -1,0 +1,94 @@
+.why-container {
+    margin: 0;
+    padding: 0;
+    font-family: "comfortaa", cursive;
+}
+
+.why-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../public/images/site.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.why-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.why2-wrapper {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+
+.why-heading {
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.m-wrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 70px;
+}
+
+.m-wrapper > div {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.m-wrapper > div > div {
+    margin-right: 3%;
+}
+
+.m-wrapper > div > div > img {
+    height: 60px;
+}
+
+.v-div > h4 {
+   font-size: 17px;
+   margin-top: 4%;
+}
+
+.v-div > p {
+    font-size: 15px;
+    margin-top: 6%;
+ }
+
+
+ @media only screen and (max-width: 768px) {
+    .m-wrapper {
+        margin: 0 10px;
+        padding-bottom: 10%;
+    }  
+
+    .why-heading {
+        font-size: 30px;
+    }
+
+    .v-div > p {
+        font-size: 15px;
+        line-height: 1.5;
+     }
+
+     .m-wrapper > div {
+        margin-bottom: 13%;
+    }
+  
+ }

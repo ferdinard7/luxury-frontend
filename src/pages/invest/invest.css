@@ -1,0 +1,121 @@
+.i-container {
+   background-color: #a1c4fd;
+   display: flex;
+   justify-content: space-between;
+   padding: 5% 8%;
+   font-family: "comfortaa", cursive;
+   /* width: 100%; */
+}
+
+.i-1 {
+    background-color: #fff;
+    flex: 2;
+    border-radius: 7px;
+    padding-bottom: 5%;
+    /* margin: 10% 5%; */
+}
+
+.i-1 > h3 {
+    margin-top: 8%;
+    padding-left: 10%;
+    margin-bottom: 9%;
+    font-size: 23px;
+    color: royalblue;
+}
+
+.i-1 > p {
+    padding-left: 10%;
+    font-size: 15px;
+    padding-right: 8%;
+    line-height: 1.6;
+    /* color: royalblue; */
+}
+
+
+.i-2 {
+    background-color: blue;
+    flex: 2;
+    border-radius: 7px;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 7%;
+    /* margin: 10% 5%; */
+}
+
+.i-2 > h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 9%;
+    
+}
+
+.form2 > p {
+    color: #fff;
+    margin-bottom: 8%;
+}
+
+.form2 > select {
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.i-a {
+    color: #fff;
+}
+
+.form2 > input {
+    height: 40px;
+    width: 500px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.form2 > button {
+    height: 45px;
+    width: 105px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.i-c {
+    margin-right: 2%;
+}
+
+.i-p {
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .i-container {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+     }
+
+     .i-1 {
+        flex: 1;
+        padding-right: 3%;
+        padding-left: 3%;
+     }
+
+     .i-1 > h3 {
+        padding-top: 8%;
+     }
+
+     .i-2 {
+        padding: 3% 3% 3% 7%;
+     }
+
+
+    .i-2 > h3 {
+        font-size: 22px;
+    }
+
+    .form2 > input {
+        width: 80%;
+    }
+
+}

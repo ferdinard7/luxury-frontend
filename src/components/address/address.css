@@ -1,0 +1,61 @@
+.address-container {
+    background-color: #17051D;
+    height: 50px;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.address-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 16px 0 10px 6%;
+    /* justify-content: center; */
+}
+
+.address-span {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.address-wrapper p {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-weight: 600; */
+}
+
+.address-icon {
+    /* padding-top: 5px; */
+    font-size: 18px !important;
+    color: royalblue;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .address-container {
+        width: 100%;
+    }
+    
+    .address-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .address-span {
+        padding-left: 25px;
+    }
+
+    .address-wrapper p {
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+   }

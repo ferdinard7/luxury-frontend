@@ -1,0 +1,70 @@
+.team-container {
+    padding-top: 5%;
+    font-family: "comfortaa", cursive;
+}
+
+.team-heading {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 27px;
+    /* line-height: 25; */
+}
+
+.team-h-1 {
+  height: 2px;
+  background-color: royalblue;
+  margin: 15px 44%;
+}
+
+.team-h {
+    height: 2px;
+    background-color: royalblue;
+    margin: 2px 47%;
+}
+
+.team-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 6% 5% 0;
+}
+
+.team-wrapper > div {
+    height: 250px;
+    width: 200px;
+    /* background-color: blue; */
+    margin-bottom: 4%;
+    margin-right: 1%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.team-wrapper > div > img {
+    margin: 13px 0 0 0;
+    height: 170px;
+    width: 150px;
+}
+
+.team-wrapper > div > h3 {
+    margin: 10px 0;
+    color: royalblue;
+}
+
+.work-wrapper > div > p {
+    margin: 15px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+    .team-wrapper {
+        margin: 0;
+    }
+    
+    .team-wrapper > div {
+        margin-top: 4%;
+        margin-left: 25%;
+    }
+    
+}
